@@ -8,7 +8,7 @@ import tracksRouter from "./router/track.js";
 import themesRouter from "./router/theme.js";
 import mediaRouter from "./router/mediatypes.js"
 
-const app = express()
+const app = express();
 
 export const db = new Database('./database/chinook.sqlite', {fileMustExist: true})
 
